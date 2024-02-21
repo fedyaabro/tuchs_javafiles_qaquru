@@ -9,10 +9,25 @@ repositories {
     mavenCentral()
 }
 
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.1'
     testImplementation 'com.codeborne:selenide:7.0.4'
     testImplementation 'com.codeborne:pdf-test:1.8.1'
+    testImplementation 'com.codeborne:xls-test:1.4.3'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+    implementation 'com.opencsv:opencsv:5.9'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.1'
+
+
+
 }
 
 test {

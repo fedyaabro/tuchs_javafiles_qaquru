@@ -1,0 +1,12 @@
+{
+  "name": "Fedya",
+  "age": 29,
+  "hobby": [
+    "speaking",
+    "teaching"
+  ],
+  "passport": {
+    "number": 1231233,
+    "issuer": "МВД"
+  }
+}
