@@ -8,7 +8,7 @@ public class Human {
 //    "name": "Fedya",
 //    "age": 29,
 //    "hobby": [
-//    "speaking",
+//      "speaking",
 //      "teaching"
 //  ],
 //    "passport": {
@@ -21,6 +21,26 @@ public class Human {
   public Integer age;
   public List<String> hobby;
   public Passport passport;
+  
+  
+  
+  
+  public String getName() {
+    return name;
+  }
+  
 
+  public Integer getAge() {
+    return age;
+  }
+  
+  public List<String> getHobby() {
+    return hobby;
+  }
+  
+  public Passport getPassport() {
+    return passport;
+  }
+  
 
 }
